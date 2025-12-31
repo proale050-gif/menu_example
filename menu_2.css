@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(250, 204, 135);
+    margin: 0;
+}
+
+.material-symbols-outlined{
+    padding: 0 0 0 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+nav .primary{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 28px 20px;
+}
+
+nav .primary .link.primary{
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: rgb(252, 249, 116);
+    color: rgb(0, 0, 0);
+    cursor: help;
+}
+.titulo{
+    padding: 20px 25px;
+    color: rgb(245, 82, 82);
+    font-size: 25px;
+}
+nav .secondary{
+    display: none;
+}
+
